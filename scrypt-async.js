@@ -557,4 +557,4 @@ function scrypt(password, salt, logN, r, dkLen, interruptStep, callback, encodin
   }
 }
 
-if (typeof module !== 'undefined') module.exports = scrypt;
+export default scrypt;
